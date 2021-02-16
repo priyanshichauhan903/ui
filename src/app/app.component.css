@@ -1,1 +1,27 @@
-
+hrms {
+  display: inline-block;
+  width: 50%;
+  font-size: 50px;
+}
+.c1 {
+  text-align: center;
+}
+.c2 {
+  padding: 7px 5px;
+  box-shadow: -1px -1px 10px 3px rgb(196, 192, 192);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+card {
+  width: 100px;
+}
+#bttn {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  left: 75px;
+}
+.a1 {
+  margin: 30px;
+  text-align: center;
+}
