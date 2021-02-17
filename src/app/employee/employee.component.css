@@ -1,1 +1,14 @@
 @import url(https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css);
+.hrms {
+  display: inline-block;
+  width: 50%;
+  font-size: 50px;
+}
+img {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+}
+.space {
+  margin-right: 20px;
+}
