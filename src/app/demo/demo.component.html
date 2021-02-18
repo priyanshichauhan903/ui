@@ -1,4 +1,5 @@
-<!-- <ul class="nav justify-content-center navstyle">
+
+<ul class="nav justify-content-center navstyle">
     <li class="nav-item">
       <a class="navbar-brand" href="#">
         <img src="assets/images/logo.png" />
@@ -9,14 +10,14 @@
     </li>
   </ul>
 <form>
-    <div class="container styletable">
+    <div class="container styletable" *ngFor="let personalDetails of dataarray">
         
-        <div class="form-row row justify-content-center ">
-            <div class="form-group col-md-1">
+        <div class="form-row" >
+            <div class="form-group col-md-1" >
                 <label >
                     EmployeeID
                 </label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="employeeid" [(ng-model)]= "personalDetails.id">
             </div>
             <div class="form-group col-3">
                 <label>
@@ -44,8 +45,7 @@
             </div>
             
         </div>
-        <span class="btn btn-success">+</span>
-        <button (onclick)="submit()" class="btn btn-success bttn">Submit</button>
+        <span (click)="addNew(personalDetails)"class="btn btn-success">+</span>
+        <button class="btn btn-success bttn">Submit</button>
     </div>
-</form> -->
-<app-demo></app-demo>
+</form>

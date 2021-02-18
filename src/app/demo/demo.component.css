@@ -1,4 +1,4 @@
-/* @import url(https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css);
+@import url(https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css);
 .hrms {
   display: inline-block;
   width: 50%;
@@ -20,4 +20,4 @@ img {
 }
 .navstyle {
   margin-top: 20px;
-} */
+}
